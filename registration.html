@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Registration.css">
+    </head>
+    <body>
+        <div class="menu">
+                <h1>Edit student details</h1>
+                <form action="Data.php" method="post">
+                    <fieldset>
+                        
+                        <label for="id">NIC : <input type="text" id="id" name="id" placeholder="9999999999" required> </label>
+                        <label for="name">Name of the student : <input type="text" id="name" name="name" placeholder="Sandun Gamage"> </label>
+                        <label for="address">Address : <input type="text" id="address" name="address" placeholder="NO.89, main Street, Nugegoda"> </label>
+                        <label for="telephone">Telephone number : <input type="text" id="telephone" name="telephone" placeholder="9999999999"> </label>
+                        <label for="course">Course name : <input type="text" id="course" name="course" placeholder="Information Technology"> </label>
+                    </fieldset>
+                        <fieldset>
+                        <legend> Please recheck all details before proceeding</legend>
+                        <label id="save" for="save"><input type="submit" value="Save" name="save"></label>
+                        <label id="update" for="update"><input type="submit" value="Update" name="update"></label>
+                        <label id="delete" for="delete"><input type="submit" value="Delete" name="delete"></label>
+                    </fieldset>    
+                    
+                </form>
+        </div>
+    </body>
+</html>
